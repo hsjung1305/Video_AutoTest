@@ -1,0 +1,19 @@
+README for an automated video playback test
+
+* Need to install previously
+ - ffprobe
+
+If you want to know run option, just type here:
+
+$ python dd_videoplay.py --help
+usage: dd_videoplay.py [-h] [--times Secs [Secs ...]]
+Process some integers.
+optional arguments:
+  -h, --help            show this help message and exit
+    --times Secs [Secs ...]
+                            times for video playback
+
+To run the test, you should do as below:
+
+python dd_videoplay.py --times
+
